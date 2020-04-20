@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Tajawal" rel="stylesheet">
+
+<header>
+<div class="section  process">
+        <h1>FOUNDINI VERSION 1.0</h1>
+		<p>        ضيعت حاجة تنجم تلقاها بسهولة</p>
+
+  <div class="animation-holder">
+        <div class="animation">
+        </div>
+        <div class="tape"></div> 
+        <div class="container">
+            <svg class="cell-phone" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 width="177.5px" height="275.5px" viewBox="0 0 177.5 275.5" enable-background="new 0 0 177.5 275.5" xml:space="preserve">
+              <g id="icon">
+                <path id="base" fill="#0BD8F9" d="M143.6,256h-108c-8.8,0-16-7.2-16-16V32c0-8.8,7.2-16,16-16h108c8.8,0,16,7.2,16,16v208
+                                                  C159.6,248.8,152.4,256,143.6,256z"/>
+                <rect id="screen" x="31.6" y="52" fill="#FFFFFF" width="116" height="168"/>
+                <circle id="nav" fill="#FFFFFF" cx="89.199" cy="239.2" r="8"/>
+                <path id="speaker" fill="#FFFFFF" d="M105.6,38h-32c-2,0-4-1.6-4-4l0,0c0-2,2-4,4-4h32c2.399,0,4,2,4,4l0,0
+                                                     C109.6,36.4,107.999,38,105.6,38z"/>
+              </g>
+              <g class="scan">
+                <path d="M67.239,157.512v8.604h-8.604v-8.604H67.239z M67.239,105.884v8.605h-8.604v-8.605H67.239z M118.866,105.884v8.605h-8.604
+                         v-8.605H118.866z M50.03,174.653h25.814v-25.747H50.03V174.653z M50.03,123.093h25.814V97.279H50.03V123.093z M101.657,123.093
+                         h25.814V97.279h-25.814V123.093z M84.448,140.302v43.023H41.425v-43.023H84.448z M118.866,174.721v8.604h-8.604v-8.604H118.866z
+                         M136.075,174.721v8.604h-8.604v-8.604H136.075z M136.075,140.302v25.814h-25.813v-8.604h-8.605v25.813h-8.604v-43.023h25.814
+                         v8.604h8.604v-8.604H136.075z M84.448,88.675v43.023H41.425V88.675H84.448z M136.075,88.675v43.023H93.052V88.675H136.075z"/>
+                <line class="redline" fill="none" stroke="#C10000" stroke-width="4" stroke-miterlimit="10" x1="36.425" y1="88.675" x2="141.759" y2="88.675"/>
+              </g>
+              <g class="text">
+                <g>
+                  <rect x="41.425" y="80.5" fill="#020202" width="47.325" height="14"/>
+                </g>
+                <g>
+                  <rect x="42.275" y="134.5" fill="#020202" width="94.65" height="7"/>
+                </g>
+                <g>
+                  <rect x="42.275" y="109.167" fill="#020202" width="94.65" height="7"/>
+                </g>
+                <g>
+                  <rect x="41.766" y="159.833" fill="#020202" width="94.65" height="7"/>
+                </g>
+                <g>
+                  <rect x="41.766" y="185.5" fill="#020202" width="94.65" height="7"/>
+                </g>
+              </g>
+            </svg>
+        </div>
+        
+  </div>
+</div>
+</header>
+<head>
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.printElement.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<style>
+
+html,
+body{
+  height:100%;
+  	    font: 100 1.25em 'Tajawal';
+
+  background:#24a1e0;
+}
+
+h1,p{
+    text-align: center;
+    color: #fff;
+    margin: 30px 0px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+	    font: 300 2.25em 'Tajawal';
+
+}
+
+.process{
+  height: 100%;
+}
+
+.container{
+  padding: 20px 0;
+  position:relative;
+}
+
+.process .animation{
+  height:140px;
+}
+
+.animation,
+.animation-holder{
+  position:relative;
+}
+.animation-holder{
+  overflow: hidden;
+  height: 321px;
+  padding: 20px 0px;
+}
+
+.animation{
+  width: auto;
+  white-space: nowrap;
+  animation: moving 3s linear infinite;
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+}
+
+.box-wrapper{
+    transition: 1s;
+    display:inline-block;
+    top: 50%;
+    width:120px;
+    height:120px;
+    margin-right:120px;
+}
+
+.box{
+  width:120px;
+  height:120px;
+}
+
+@keyframes moving{
+  0%{
+     transform: translateX(-240px);
+  }
+  100%{
+     transform: translateX(0);
+  }
+}
+
+.tape{
+  background: #48b1e5;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 0;
+  border-bottom: 10px solid #1e96d2;
+}
+
+.cell-phone{
+  position:absolute;
+  top: 0px;
+  right:100px;
+   z-index: 1;
+}
+.cell-phone .text{
+  animation: textvisibility 3s linear infinite;
+}
+
+.cell-phone .scan{
+  animation: scanvisibility 3s linear infinite;
+}
+
+.cell-phone .scan .redline{
+  animation: scanning 3s linear infinite;
+}
+
+@keyframes scanning{
+  0%{transform: translateY(0px)}
+  17%{transform: translateY(94px);}
+  32%{transform: translateY(0px);}
+  50%{transform: translateY(94px);}
+  51%{visibility:hidden;translateY(94px);}
+  100%{visibility:hidden;transform: translateY(0px)}
+}
+
+@keyframes scanvisibility{
+  0%{visibility:visible;}
+  51%{visibility:hidden;}
+  100%{visibility:hidden;}
+}
+
+@keyframes textvisibility{
+  0%{visibility:hidden;}
+  51%{visibility:hidden;}
+  52%{visibility:visible;}
+  100%{visibility:visible;}
+}
+.qr-code {
+  max-width: 200px;
+  margin: 10px;
+  position: center>
+}</style>
+<body><br><br>
+<div class="container-fluid">
+  <div class="text-center">
+<center>
+  <img src="https://chart.googleapis.com/chart?cht=qr&chl=Hello+World&chs=160x160&chld=L|0"
+         class="qr-code img-thumbnail img-responsive"> </center>
+  </div>
+
+  <div class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="content"></label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="content" placeholder="مثال : اكتب خبيت مفتاح الدار في الكوجينة فوق الطاولة" size="50">
+
+      </div>
+    </div>
+	
+    <div class="form-group"> 
+      <div class="col-sm-offset-2 col-sm-10">
+	  <center>
+       <button type="button" class="btn btn-default" id="generate">اعطيني الكود الخاص بيا </button></center>
+		
+    </div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+var box = "<svg class='box' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='65.333px' height='62.5px' viewBox='17.167 17.5 65.333 62.5' enable-background='new 17.167 17.5 65.333 62.5' xml:space='preserve'> <g> <path fill='#EFC75E' d='M19.985,32.486L49.986,17.5l30,14.986l-0.016,1.981L49.986,49.47L19.997,34.491L19.985,32.486z'/><path fill='#E7BF55' d='M19.986,32.486l29.977,14.999l30.023-14.999v30l-30.109,15l-29.891-15V32.486z'/><path fill='#DBB551' d='M49.986,77.432V47.473l-0.023,0.012L19.986,32.486v30l29.891,15L49.986,77.432z'/><path fill='#F1D999' d='M61.99,41.477v8.792l2.678,0.216l1.707-2.033l1.607,0.253V38.483L61.99,41.477z'/><path fill='#F7E3AF' d='M31.967,26.501l30.51,15.279l5.502-3.26l-30-15.023L31.967,26.501z'/><path fill='#F2F2F2' d='M43.979,60.607l-9.984-5.01c-0.551-0.277-0.998,0.061-0.998,0.752v6.26c0,0.693,0.447,1.479,0.998,1.754 l9.984,5.012c0.551,0.275,0.998-0.063,0.998-0.754v-6.26C44.977,61.67,44.529,60.885,43.979,60.607z M41.482,65.617l-5.99-3.008c-0.275-0.137-0.499-0.529-0.499-0.875s0.224-0.514,0.499-0.377l5.99,3.006c0.275,0.141,0.499,0.531,0.499,0.877C41.981,65.588,41.758,65.756,41.482,65.617z M42.48,63.613l-6.988-3.508c-0.275-0.139-0.499-0.531-0.499-0.877s0.224-0.514,0.499-0.375l6.988,3.508c0.276,0.139,0.499,0.531,0.499,0.875C42.979,63.584,42.757,63.752,42.48,63.613z'/><g><polygon fill='#FFFFFF' points='67.979,66.508 53.223,72.129 52.67,55.092 67.426,49.47'/><g><path d='M67.787,66.313l-1.582,0.602l-0.033,0.014l-1.615,0.615l-1.614,0.615l-0.061-1.828l1.615-0.615l1.616-0.615l0.034-0.014l-0.06-1.828l-0.059-1.826l1.614-0.615l0.059,1.826l0.061,1.828l0.059,1.828L67.787,66.313z M64.292,58.354l1.582-0.604l0.034-0.012l1.581-0.604l0.06,1.828l-1.581,0.604l-0.035,0.012l-1.581,0.604L64.292,58.354z M62.797,62.662l1.615-0.615l0.059,1.828l-1.616,0.615L62.797,62.662z M62.405,51.635l4.88-1.86l0.179,5.52l-4.88,1.859L62.405,51.635z M63.621,55.527l2.727-1.039l-0.101-3.084l-2.727,1.039L63.621,55.527z M64.394,53.072l1.044-0.396l0.039,1.18l-1.045,0.398L64.394,53.072zM62.703,60.811l-1.616,0.615l0.12,3.693l0.059,1.828l0.06,1.826l-1.616,0.617l-0.06-1.83l-0.06-1.826l-0.118-3.693l-1.616,0.615l-0.06-1.826l1.616-0.617l-0.18-5.52l-0.06-1.828l1.617-0.615l0.059,1.828l0.179,5.52l1.616-0.615L62.703,60.811L62.703,60.811zM52.677,55.34l4.881-1.859L57.736,59l-4.88,1.859L52.677,55.34z M53.895,59.232l2.726-1.039l-0.099-3.082l-2.728,1.037L53.895,59.232z M54.666,56.779l1.043-0.396l0.039,1.18l-1.044,0.396L54.666,56.779z M56.147,61.457l0.06,1.828L54.59,63.9l-1.614,0.617l-0.06-1.83l1.615-0.613L56.147,61.457z M58.094,70.006l-4.88,1.859l-0.18-5.52l4.88-1.861L58.094,70.006zM56.878,66.113l-2.727,1.037l0.1,3.084l2.727-1.039L56.878,66.113z M56.104,68.566l-1.043,0.398l-0.039-1.182l1.044-0.398L56.104,68.566z'/></g></g></g></svg>";
+
+$(window).on('load', function() {
+      create_box();
+});
+
+function create_box(){
+    var newbox = "<div class='box-wrapper'>"+ box +"</div>";
+    $(".animation").append(newbox);
+    $(".animation").append(newbox);
+    $(".animation").append(newbox);
+    $(".animation").append(newbox);
+    $(".animation").append(newbox);
+    $(".animation").append(newbox);
+    $(".animation").append(newbox);
+    $(".animation").append(newbox);
+}
+
+
+function htmlEncode (value){
+  return $('<div/>').text(value).html();
+}
+
+
+$(function() {
+
+
+
+
+
+  $("#generate").click(function() {
+    $(".qr-code").attr("src", "https://chart.googleapis.com/chart?cht=qr&chl=" + htmlEncode($("#content").val()) + "&chs=160x160&chld=L|0");
+  });
+});</script>
+</html>
